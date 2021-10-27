@@ -1,2 +1,3 @@
-# hot
-[NeurIPS'21] Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs
+# Higher-Order Transformers
+
+We will release the official implementation during early November.
