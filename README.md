@@ -11,8 +11,9 @@ NeurIPS 2021
 ![image-linear](./docs/linear-scaling.png)
 
 ## How do I use Higher-Order Transformers for my project?
-Go to your repository and do the following.
+Go to your repository and execute the following.
 ```bash
+# this is enough
 pip install torch>=1.8.1
 
 # add this repository as a submodule
@@ -26,7 +27,7 @@ cd ..
 ```
 For basic use cases, please see `run_tests.py`.
 
-To keep the codebase up-to-date, execute the following:
+To keep the code up-to-date, execute the following:
 ```bash
 git submodule update --remote --merge
 ```
