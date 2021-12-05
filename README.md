@@ -14,7 +14,7 @@ In `hot_pytorch`, you can find implementation of:
 - Up-to-second-order Transformer layers ({set, graph} input × {set, graph, vector} output)
 - A span of their variants ({dense, sparse} data × {softmax, kernel} attention)
 - Corresponding equivariant linear layers as baselines
-- A special extension for higher-order hyperedge prediction
+- A special extension for higher-order hyperedge prediction (set input, hyperedges output)
 
 ## How do I use Higher-Order Transformers for my project?
 Go to your repository and execute the following.
