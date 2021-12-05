@@ -14,7 +14,7 @@ In `hot_pytorch`, we provide implementations of:
 - Up-to-second-order Transformer layers ({set, graph} input × {set, graph, vector} output)
 - A span of their variants ({dense, sparse} data × {softmax, kernel} attention)
 - Corresponding equivariant linear layers as baselines
-- A special extension for higher-order hyperedge prediction (set input, hyperedges output)
+- A special extension for higher-order hyperedge prediction (set input, *k*-hyperedges output)
 
 In practice, we recommend to use the **sparse kernel variant** as it scales linearly to input size.
 
