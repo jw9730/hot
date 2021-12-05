@@ -10,10 +10,10 @@ NeurIPS 2021
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
 
-We provide implementations of:
-- Up-to-second-order Transformers ({set, graph} → {set, graph, vec})
+In `hot_pytorch/`, you can find implementations of:
+- Up-to-second-order Transformer layers ({set, graph} → {set, graph, vec})
 - A span of variants ({dense, sparse} × {softmax attention, kernel attention})
-- Corresponding equivariant MLPs as baselines
+- Corresponding equivariant linear layers as baselines
 - A special extension for higher-order hyperedge prediction
 
 ## How do I use Higher-Order Transformers for my project?
