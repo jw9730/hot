@@ -10,18 +10,24 @@ NeurIPS 2021
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
 
-## How do I use this as a standalone in my project?
+## How do I use HOT for my project?
 Go to your repository and do the following.
 ```bash
-# install dependency
 pip install torch>=1.8.1
-# add submodule
+
+# add this repository as a submodule
 git submodule add https://github.com/jw9730/hot hot
 git submodule init
-# run basic tests
+
 cd hot
 python3 run_tests.py
 cd ..
+```
+For basic use cases, please see `run_tests.py`.
+
+To keep the codebase up-to-date, do the following:
+```bash
+git submodule update --remote --merge
 ```
 
 ## Setup experiments
