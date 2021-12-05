@@ -10,7 +10,7 @@ NeurIPS 2021
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
 
-## How do I use HOT for my project?
+## How do I use Higher-Order Transformers for my project?
 Go to your repository and do the following.
 ```bash
 pip install torch>=1.8.1
@@ -19,18 +19,19 @@ pip install torch>=1.8.1
 git submodule add https://github.com/jw9730/hot hot
 git submodule init
 
+# run basic tests
 cd hot
 python3 run_tests.py
 cd ..
 ```
 For basic use cases, please see `run_tests.py`.
 
-To keep the codebase up-to-date, do the following:
+To keep the codebase up-to-date, execute the following:
 ```bash
 git submodule update --remote --merge
 ```
 
-## Setup experiments
+## Setting up experiments
 ```bash
 # using Docker
 git clone https://github.com/jw9730/hot.git hot
@@ -49,7 +50,7 @@ pip install torch-sparse==0.6.9 torch-scatter==2.0.6 -f https://data.pyg.org/whl
 pip install torch-geometric==1.6.3
 ```
 
-## Run experiments
+## Running experiments
 ```bash
 # Runtime and memory analysis
 python3 run_perf_tests.py
