@@ -9,4 +9,10 @@ NeurIPS 2021
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
 
+Updates
+
+(6 Dec 2021) The code release is being delayed due to an installation issue related to pytorch_geometric. We will release the code once the issue is resolved.
+
+--
+
 We will release the official implementation during November.
