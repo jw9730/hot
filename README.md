@@ -25,7 +25,7 @@ cd hot
 python3 run_tests.py
 cd ..
 ```
-For basic use cases, please see `run_tests.py`.
+For basic use cases, please see `run_perf_tests.py` and `run_tests.py`.
 
 To keep the code up-to-date, execute the following:
 ```bash
