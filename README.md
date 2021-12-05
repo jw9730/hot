@@ -10,6 +10,12 @@ NeurIPS 2021
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
 
+We provide implementations of:
+- Up-to-second-order Transformers ({set, graph} → {set, graph, vec})
+- A span of variants ({dense, sparse} × {softmax attention, kernel attention})
+- Corresponding equivariant MLPs as baselines
+- A special extension for higher-order hyperedge prediction
+
 ## How do I use Higher-Order Transformers for my project?
 Go to your repository and execute the following.
 ```bash
@@ -25,9 +31,10 @@ cd hot
 python3 run_tests.py
 cd ..
 ```
+
 For basic use cases, please see `run_perf_tests.py` and `run_tests.py`.
 
-To keep the code up-to-date, execute the following:
+To update the code, execute the following:
 ```bash
 git submodule update --remote --merge
 ```
