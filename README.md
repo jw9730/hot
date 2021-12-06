@@ -14,7 +14,6 @@ NeurIPS 2021
 - Works well on large datasets!
 
 ![image-second-order](./docs/second-order-transformer.png)
-![image-linear](./docs/linear-scaling.png)
 
 In this repository, we provide the PyTorch implementation of:
 - Up-to-second-order Transformers: {set, graph} input × {set, graph, vector} output
