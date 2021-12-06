@@ -45,16 +45,17 @@ git submodule update --remote --merge
 ```
 
 ## Setting up experiments
+Using Docker
 ```bash
-# using Docker
 git clone https://github.com/jw9730/hot.git hot
 cd hot
 docker build --no-cache --tag hot:latest .
 docker run -it --gpus all --ipc=host --name=hot -v /home:/home hot:latest bash
 # upon completion, you should be at /hot inside the container
 ```
+
+Using pip
 ```bash
-# using pip
 git clone https://github.com/jw9730/hot.git hot
 cd hot
 pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
