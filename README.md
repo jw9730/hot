@@ -16,7 +16,7 @@ In this repository, we provide PyTorch implementations of:
 - Corresponding equivariant linear layers as baselines
 - A special extension for higher-order hyperedge prediction (set input, *k*-hyperedges output)
 
-In practice, we recommend to use the **sparse kernel variant** as it scales linearly to data size while still being powerful.
+In practice, we recommend to use the ***sparse kernel variant*** as it scales linearly to data size while still being powerful.
 
 ## How do I use Higher-Order Transformers for my project?
 Go to your repository and execute the following.
