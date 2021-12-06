@@ -7,9 +7,9 @@ NeurIPS 2021
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transformers-generalize-deepsets-and-can-be/graph-regression-on-pcqm4m-lsc)](https://paperswithcode.com/sota/graph-regression-on-pcqm4m-lsc?p=transformers-generalize-deepsets-and-can-be)
 
 ***We present a generalization of Transformers to sets, graphs, and hypergraphs, and reduce its computational cost to linear to input size.***
-- Powerful operations, involving both local and global dependency over input elements
-- Flexible translation between different-order graphs (e.g., set-to-graph, graph-to-set, graph-to-vector)
-- Theoretically and empirically stronger than MPNNs, even with same linear complexity
+- Powerful operations, involving both local and global interactions over input elements
+- Translation between different-order graphs (e.g., set-to-graph, graph-to-set, graph-to-vector)
+- Theoretically and empirically stronger than MPNNs, even with the same linear complexity
 - Works well on large datasets!
 
 ![image-second-order](./docs/second-order-transformer.png)
@@ -17,8 +17,8 @@ NeurIPS 2021
 In this repository, we provide the PyTorch implementation of:
 - Up-to-second-order Transformers: {set, graph} input × {set, graph, vector} output
 - A space of their variants: {dense, sparse} data × {softmax, kernel} attention
-- Corresponding equivariant linear layers as baselines
 - A special extension for higher-order hyperedge prediction: set input, *k*-hyperedges output
+- Corresponding equivariant linear layers as baselines
 
 In practice, we recommend to use the ***sparse kernel variant*** as it scales linearly to data size while still powerful.
 
