@@ -4,6 +4,8 @@
 [Jinwoo Kim](https://bit.ly/3pPuyIb), [Saeyoon Oh](https://github.com/saeyoon17), [Seunghoon Hong](https://maga33.github.io/) @ [KAIST](https://www.kaist.ac.kr/en/) \
 NeurIPS 2021
 
+***We present a generalization of Transformers to sets, graphs, and hypergraphs, and reduce its computational cost to linear to input size.***
+
 [![arXiv](https://img.shields.io/badge/arXiv-2104.02321-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2110.14416)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transformers-generalize-deepsets-and-can-be/graph-regression-on-pcqm4m-lsc)](https://paperswithcode.com/sota/graph-regression-on-pcqm4m-lsc?p=transformers-generalize-deepsets-and-can-be)
 
