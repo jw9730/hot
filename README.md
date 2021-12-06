@@ -10,11 +10,11 @@ NeurIPS 2021
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
 
-In this repository, we provide PyTorch implementations of:
-- Up-to-second-order Transformer layers ({set, graph} input × {set, graph, vector} output)
-- A span of their variants ({dense, sparse} data × {softmax, kernel} attention)
+In this repository, we provide the PyTorch implementation of:
+- Up-to-second-order Transformers: {set, graph} input × {set, graph, vector} output
+- A space of their variants: {dense, sparse} data × {softmax, kernel} attention
 - Corresponding equivariant linear layers as baselines
-- A special extension for higher-order hyperedge prediction (set input, *k*-hyperedges output)
+- A special extension for higher-order hyperedge prediction: set input, *k*-hyperedges output
 
 In practice, we recommend to use the ***sparse kernel variant*** as it scales linearly to data size while still being powerful.
 
@@ -33,7 +33,6 @@ cd hot
 python3 run_tests.py
 cd ..
 ```
-
 For basic use cases, please see `run_perf_tests.py` and `run_tests.py`.
 
 To update the code, execute the following:
