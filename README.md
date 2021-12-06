@@ -11,6 +11,7 @@ NeurIPS 2021
 - Powerful operations, involving both local and global dependency over input elements
 - Flexible translation between different-order graphs (e.g., set-to-graph, graph-to-set, graph-to-vector)
 - Theoretically and empirically stronger than MPNNs, even with same linear complexity
+- Works well on large datasets!
 
 ![image-second-order](./docs/second-order-transformer.png)
 ![image-linear](./docs/linear-scaling.png)
