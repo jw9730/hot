@@ -64,12 +64,13 @@ pip install torch-geometric==1.6.3
 ```
 
 ## Running experiments
+Runtime and memory analysis
 ```bash
-# Runtime and memory analysis
 python3 run_perf_tests.py
 ```
+
+PCQM4M-LSC graph regression
 ```bash
-# PCQM4M-LSC graph regression
 cd regression/examples/pcqm4m-lsc
 
 # Second-Order Transformers (sparse kernel)
@@ -86,8 +87,8 @@ bash mlp-short.sh
 # Vanilla Transformer + Laplacian PE
 bash laplacian-short.sh
 ```
+Set-to-graph prediction
 ```bash
-# set-to-graph prediction
 cd set-to-graph/main
 python download_jets_data.py
 cd ../examples
@@ -118,8 +119,8 @@ bash enc-softmax.sh
 bash test-enc-kernel.sh
 bash test-enc-softmax.sh
 ```
+*k*-uniform hyperedge prediction
 ```bash
-# k-uniform hyperedge prediction
 cd k-uniform-hyperedge/examples
 
 # GPS
