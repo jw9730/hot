@@ -1,4 +1,4 @@
-# Higher-Order Transformers (PyTorch)
+# Higher-Order Transformer (PyTorch)
 
 [**Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs**](https://arxiv.org/abs/2110.14416) \
 [Jinwoo Kim](https://bit.ly/3pPuyIb), [Saeyoon Oh](https://github.com/saeyoon17), [Seunghoon Hong](https://maga33.github.io/) @ [KAIST](https://www.kaist.ac.kr/en/) \
