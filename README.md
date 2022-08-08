@@ -160,9 +160,7 @@ If you find our work useful, please consider citing it:
 @article{kim2021transformers,
   author    = {Jinwoo Kim and Saeyoon Oh and Seunghoon Hong},
   title     = {Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs},
-  journal   = {arXiv},
-  volume    = {abs/2110.14416},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2110.14416}
+  booktitle = {2021 Conference on Neural Information Processing Systems (NeurIPS)},
+  year      = {2021}
 }
 ```
