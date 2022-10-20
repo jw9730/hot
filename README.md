@@ -1,7 +1,7 @@
 # Higher-Order Transformer (PyTorch)
 
 [**Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs**](https://arxiv.org/abs/2110.14416) \
-[Jinwoo Kim](https://bit.ly/3pPuyIb), [Saeyoon Oh](https://github.com/saeyoon17), [Seunghoon Hong](https://maga33.github.io/) @ [KAIST](https://www.kaist.ac.kr/en/) \
+[Jinwoo Kim](https://bit.ly/jinwoo-kim), [Saeyoon Oh](https://github.com/saeyoon17), [Seunghoon Hong](https://maga33.github.io/) @ [KAIST](https://www.kaist.ac.kr/en/) \
 NeurIPS 2021
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transformers-generalize-deepsets-and-can-be/graph-regression-on-pcqm4m-lsc)](https://paperswithcode.com/sota/graph-regression-on-pcqm4m-lsc?p=transformers-generalize-deepsets-and-can-be)
