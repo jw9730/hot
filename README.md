@@ -1,4 +1,4 @@
-# Higher-Order Transformer (PyTorch)
+# Higher-order Transformer (PyTorch)
 
 [**Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs**](https://arxiv.org/abs/2110.14416) \
 [Jinwoo Kim](https://bit.ly/jinwoo-kim), [Saeyoon Oh](https://github.com/saeyoon17), [Seunghoon Hong](https://maga33.github.io/) @ [KAIST](https://www.kaist.ac.kr/en/) \
@@ -22,7 +22,7 @@ In this repository, we provide the PyTorch implementation of:
 
 In practice, we recommend to use the ***sparse kernel variant*** as it scales linearly to data size while still powerful.
 
-## How do I use Higher-Order Transformers for my project?
+## How do I use Higher-order Transformers for my project?
 Go to your repository and execute the following.
 ```bash
 # this is enough
@@ -74,7 +74,7 @@ PCQM4M-LSC graph regression
 ```bash
 cd regression/examples/pcqm4m-lsc
 
-# Second-Order Transformers (sparse kernel)
+# Second-order Transformers (sparse kernel)
 bash enc.sh
 bash enc-small.sh
 
@@ -82,7 +82,7 @@ bash enc-small.sh
 bash enc-short.sh
 bash enc-small-short.sh
 
-# Second-Order MLP
+# Second-order MLP
 bash mlp-short.sh
 
 # Vanilla Transformer + Laplacian PE
